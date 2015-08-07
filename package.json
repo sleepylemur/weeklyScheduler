@@ -1,20 +1,19 @@
 {
-  "name": "vagrant",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "name": "weeklyScheduler",
+  "version": "0.0.1",
+  "description": "web app for organizing weekly goals",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "gulp test",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Evan Griffiths",
   "license": "ISC",
   "dependencies": {
     "babelify": "^6.1.3",
     "browser-sync": "^2.8.2",
     "browserify": "^11.0.1",
     "gulp": "^3.9.0",
-    "gulp-browserify": "^0.5.1",
     "gulp-mocha": "^2.1.3",
     "vinyl-source-stream": "^1.1.0"
   },
